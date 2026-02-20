@@ -15,5 +15,5 @@ int main() {
 		cout << arr[i];
 	}
 
-	cout << "\n\n==END==\n";
+	cout << "\n\n======END======\n";
 }
