@@ -2,13 +2,18 @@
 using namespace std;
 
 int main() {
-	int arr[10];
+	const int arrSize = 10;
+	int arr[arrSize];
 
 	cout << "Enter array:" << endl;
-	for (int i : arr)
-		cin >> i;
+	for (int i = 0; i < arrSize; i++)
+		cin >> arr[i];
 
-	for (int i : arr) {
-		
+	cout << "\n";
+	for (int i = 0; i < arrSize; i++) {
+		if (i != 0) cout << ", ";
+		cout << arr[i];
 	}
+
+	cout << "\n\n==END==\n";
 }
