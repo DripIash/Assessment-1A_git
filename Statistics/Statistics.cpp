@@ -2,6 +2,7 @@
 #include <assert.h>
 using namespace std;
 
+// return the percentage of shots hit, rounding down
 int CalcAccuracy(int hit, int shot);
 
 int main() {
@@ -23,6 +24,6 @@ int main() {
 int CalcAccuracy(int hit, int shot) {
 	if (shot == 0)
 		return 0;
-	hit *= 100;
+	hit *= 100; // avoid a float
 	return hit / shot;
 }

@@ -16,6 +16,7 @@ enum PotionType {
 	MAGIC
 };
 
+// return a new player with modified attributes depending on the potion used
 Player applyPotion(PotionType type, Player p);
 
 int main() {
@@ -29,6 +30,7 @@ int main() {
 	Player player;
 	Player output;
 
+	// test for each potion type
 	for (int i = 0; i < 4; i++) {
 		switch (i) {
 		case 0: output = applyPotion(HEALTH, player); break;

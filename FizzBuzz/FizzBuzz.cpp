@@ -3,6 +3,7 @@
 #include <assert.h>
 using namespace std;
 
+// return the correct string corresponding to the input
 string FizzBuzz(int input);
 
 int main() {
@@ -21,11 +22,12 @@ int main() {
 string FizzBuzz(int input) {
 	bool fizz = false, buzz = false;
 	if (((input % 3) == 0) && ((input % 5) != 0))
-		return "Fizz";
+		return "Fizz";		// if the input is divisible by 3
 	if (((input % 3) != 0) && ((input % 5) == 0))
-		return "Buzz";
+		return "Buzz";		// if the input is divisible by 5
 	if (((input % 3) == 0) && ((input % 5) == 0))
-		return "FizzBuzz";
+		return "FizzBuzz";	// if the input is divisible by 3 and 5
 
+	// if the input isn't divisible by anything
 	return to_string(input);
 }

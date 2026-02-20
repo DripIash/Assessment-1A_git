@@ -2,6 +2,7 @@
 #include <assert.h>
 using namespace std;
 
+// return the lowest element in the input array
 int FindMinimum(int arr[], const int size);
 
 int main() {
