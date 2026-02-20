@@ -5,7 +5,7 @@ using namespace std;
 int CalcAccuracy(int hit, int shot);
 
 int main() {
-	int numHit = 0, numShot = 0;
+	int numHit, numShot;
 	int hitArr[5] = { 3, 1, 13, 21, 0 };
 	int shotArr[5] = { 4, 2, 13, 173, 0 };
 	int result[5] = { 75, 50, 100, 12, 0 };
@@ -23,5 +23,6 @@ int main() {
 int CalcAccuracy(int hit, int shot) {
 	if (shot == 0)
 		return 0;
+	hit *= 100;
 	return hit / shot;
 }

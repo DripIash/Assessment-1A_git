@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Element", "Minimum 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Statistics", "Statistics\Statistics.vcxproj", "{D4E6F8E9-676C-454D-959A-122FFEB6B0B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch", "Switch\Switch.vcxproj", "{CDE41717-6820-4621-8547-1625DB530511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{D4E6F8E9-676C-454D-959A-122FFEB6B0B2}.Release|x64.Build.0 = Release|x64
 		{D4E6F8E9-676C-454D-959A-122FFEB6B0B2}.Release|x86.ActiveCfg = Release|Win32
 		{D4E6F8E9-676C-454D-959A-122FFEB6B0B2}.Release|x86.Build.0 = Release|Win32
+		{CDE41717-6820-4621-8547-1625DB530511}.Debug|x64.ActiveCfg = Debug|x64
+		{CDE41717-6820-4621-8547-1625DB530511}.Debug|x64.Build.0 = Debug|x64
+		{CDE41717-6820-4621-8547-1625DB530511}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDE41717-6820-4621-8547-1625DB530511}.Debug|x86.Build.0 = Debug|Win32
+		{CDE41717-6820-4621-8547-1625DB530511}.Release|x64.ActiveCfg = Release|x64
+		{CDE41717-6820-4621-8547-1625DB530511}.Release|x64.Build.0 = Release|x64
+		{CDE41717-6820-4621-8547-1625DB530511}.Release|x86.ActiveCfg = Release|Win32
+		{CDE41717-6820-4621-8547-1625DB530511}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
